@@ -45,6 +45,7 @@ header ul {
  }
 
 h4 {
+    color: white;
     font-weight: normal;
     font-size: 1.25rem;
 }
@@ -60,6 +61,20 @@ h1 {
 
 h2 {
     font-size: 2rem;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+    
+a:visited {
+   text-decoration: underline;
 }
 
 .wrapper {
@@ -131,10 +146,6 @@ h2 {
     border-width: 2px;
 }
 
-a:link, a:visited {
-    text-decoration: none;
-    color: white;
-}
 
 #services .boxes .web {
     width: 350px;
